@@ -2,16 +2,20 @@
 
 import UnityEngine.UI;
 
-public class GameController extends MonoBehaviour {
+public class GameOver extends MonoBehaviour {
+
+	public var playerName : Text;
 
 	function Update() {
-	 	if (Input.GetKey(KeyCode.Enter)) {
-			storeScore();
+	 	if (Input.GetKey(KeyCode.Return)) {
+			routeToScoreboard();
 			SceneManagement.SceneManager.LoadScene("Scoreboard");
 		}
 	}
 
-	private function storeScore() {
-
+	private function routeToScoreboard() {
+		var score : int = PlayerPrefs.GetInt("Player Score");
+		var storage : SessionStorage = SessionStorage.getInstance();
+		storage.storeScore(playerName.text, score);
 	}
 }

@@ -1001,7 +1001,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb5ffdd72ea75e049a7c700466ef8748, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  score: 100
+  score: 0
   healthSlider: {fileID: 694483516}
   fuelSlider: {fileID: 958876088}
   scoreText: {fileID: 978362795}
