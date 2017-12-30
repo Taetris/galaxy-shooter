@@ -4,7 +4,7 @@ import UnityEngine.UI;
 
 public class GameController extends MonoBehaviour {
 
-	public var score : float;
+	public var score : int;
 	public var healthSlider : Slider;
 	public var fuelSlider : Slider;
 	public var scoreText : Text;
@@ -18,13 +18,15 @@ public class GameController extends MonoBehaviour {
 
 	function Update() {
 		updateUI();
-		player.rotate();
 
+		player.rotate();
 		if(Input.GetMouseButtonDown(0)) {
 			player.shoot();
 		}
 		if(Input.GetKey(KeyCode.W)) {
 			player.move();
+		} else if (Input.GetKey(KeyCode.Escape)) {
+			SceneManagement.SceneManager.LoadScene("MainMenu");
 		}
 	}
 
@@ -33,8 +35,17 @@ public class GameController extends MonoBehaviour {
 	}
 
 	private function updateUI() {
+		if (player.getHealth() <= 0) {
+			endGame();
+		}
+
 		healthSlider.value = player.getHealth();
 		fuelSlider.value = player.getFuel();
 		scoreText.text = score.ToString();
+	}
+
+	private function endGame() {
+		PlayerPrefs.SetInt("Player Score", score);
+		SceneManagement.SceneManager.LoadScene("MainMenu");
 	}
 }

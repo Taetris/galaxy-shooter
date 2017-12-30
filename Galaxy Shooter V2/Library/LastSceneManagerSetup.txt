@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Play/PlayScene.unity
+- path: Assets/GameOver/GameOver.unity
   isLoaded: 1
   isActive: 1
