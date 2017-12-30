@@ -17,6 +17,7 @@ ExportedObj/
 *.booproj
 *.svd
 *.pdb
+*.meta
 
 # Unity3D generated meta files
 *.pidb.meta
@@ -31,6 +32,5 @@ Galaxy Shooter V2/Library/EditorInstance.json
 Galaxy Shooter V2/Library/shadercompiler-UnityShaderCompiler.exe0.log
 Galaxy Shooter V2/Temp
 Galaxy Shooter V2/obj
-Galaxy Shooter V2/library
 Galaxy Shooter V2/build
 Galaxy Shooter V2/builds
