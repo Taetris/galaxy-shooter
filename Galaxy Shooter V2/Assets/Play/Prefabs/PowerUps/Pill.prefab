@@ -10,6 +10,7 @@ GameObject:
   - component: {fileID: 497694}
   - component: {fileID: 21295224}
   - component: {fileID: 61805528087844696}
+  - component: {fileID: 114083205329553640}
   m_Layer: 11
   m_Name: Pill
   m_TagString: PowerUp
@@ -110,3 +111,16 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.22, y: 0.21}
   m_EdgeRadius: 0
+--- !u!114 &114083205329553640
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 144746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b899df22603ead4ab5e97362abefb49, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthAmount: 10
+  clip: {fileID: 8300000, guid: 5a5192287be665e4983f838e420346e2, type: 3}

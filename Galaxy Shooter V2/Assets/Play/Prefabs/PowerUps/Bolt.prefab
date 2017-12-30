@@ -123,3 +123,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuelAmount: 20
+  clip: {fileID: 8300000, guid: 5a5192287be665e4983f838e420346e2, type: 3}

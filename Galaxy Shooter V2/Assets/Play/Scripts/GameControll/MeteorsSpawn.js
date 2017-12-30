@@ -1,9 +1,12 @@
 ﻿#pragma strict
 
+import System.Collections.Generic;
+
 public class MeteorsSpawn extends MonoBehaviour {
 
 	public var meteors : GameObject[];
 	public var spawnOffset : Vector2;
+	public var spawnAmount : int;
 
 	public var minSpawnTime : float;
 	public var maxSpawnTime : float;
@@ -28,7 +31,9 @@ public class MeteorsSpawn extends MonoBehaviour {
 		currentTime += Time.deltaTime;
 
 		if (currentTime >= currentSpawnTime) {
-			spawn();
+			for (var i = 0; i < spawnAmount; i++) {
+				spawn();
+			}
 			resetTimer();
 		}
 	}

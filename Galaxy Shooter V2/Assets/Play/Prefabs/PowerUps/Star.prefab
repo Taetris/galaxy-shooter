@@ -10,6 +10,7 @@ GameObject:
   - component: {fileID: 437042}
   - component: {fileID: 21296240}
   - component: {fileID: 5819340}
+  - component: {fileID: 114139134697861228}
   m_Layer: 11
   m_Name: Star
   m_TagString: PowerUp
@@ -100,3 +101,16 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 100122}
   m_IsPrefabParent: 1
+--- !u!114 &114139134697861228
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100122}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef9ee4fa0fb70eb478a37623ef3cace2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAmount: 100
+  clip: {fileID: 8300000, guid: 5a5192287be665e4983f838e420346e2, type: 3}

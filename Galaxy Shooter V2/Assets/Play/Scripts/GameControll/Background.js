@@ -1,7 +1,7 @@
 ﻿#pragma strict
 
 public class Background extends MonoBehaviour {
-
+	
 	private var playerRigidBody : Rigidbody2D;
 	private var material : Material;
 	private var offset : Vector2;

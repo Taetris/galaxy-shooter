@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 21237594}
   - component: {fileID: 6065834}
   - component: {fileID: 5093000}
+  - component: {fileID: 114072320404853126}
   m_Layer: 9
   m_Name: MeteorSmall02
   m_TagString: Meteor
@@ -138,3 +139,16 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 199390}
   m_IsPrefabParent: 1
+--- !u!114 &114072320404853126
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 199390}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73fc9da963e0dc94a9488e7784f88454, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  healthAmount: 5
+  clip: {fileID: 8300000, guid: d3ce3b5373fa68e49933b865792b5666, type: 3}

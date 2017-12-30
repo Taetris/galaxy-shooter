@@ -10,8 +10,9 @@ GameObject:
   - component: {fileID: 403044}
   - component: {fileID: 21228038}
   - component: {fileID: 6170140}
-  - component: {fileID: 5054166}
   - component: {fileID: 114310773558416398}
+  - component: {fileID: 114413454357114010}
+  - component: {fileID: 50633816200466672}
   m_Layer: 12
   m_Name: Laser
   m_TagString: Laser
@@ -32,36 +33,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!50 &5054166
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 150568}
-  m_BodyType: 0
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0
-  m_GravityScale: 0
-  m_Material: {fileID: 0}
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 4
 --- !u!61 &6170140
 BoxCollider2D:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 150568}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -132,6 +113,26 @@ Prefab:
   m_ParentPrefab: {fileID: 0}
   m_RootGameObject: {fileID: 150568}
   m_IsPrefabParent: 1
+--- !u!50 &50633816200466672
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150568}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &114310773558416398
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -145,3 +146,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 20
   timeToLive: 2
+  clip: {fileID: 8300000, guid: b4bc522ce2772d94aac420bafe7aeb5b, type: 3}
+--- !u!114 &114413454357114010
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 150568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45d8601b950ec824288558e7fd870164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreAmount: 10
+  clip: {fileID: 8300000, guid: d3ce3b5373fa68e49933b865792b5666, type: 3}
