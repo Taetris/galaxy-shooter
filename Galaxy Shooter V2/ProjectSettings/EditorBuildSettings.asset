@@ -17,3 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scoreboard/Scoreboard.unity
     guid: decf5e1f936981e44afd383fe72ae6c2
+  - enabled: 1
+    path: Assets/Credits/Credits.unity
+    guid: d4616607f4c2ab647b992b2e3bb4c06c

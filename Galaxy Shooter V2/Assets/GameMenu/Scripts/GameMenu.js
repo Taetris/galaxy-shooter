@@ -10,7 +10,7 @@ public class GameMenu extends MonoBehaviour {
 		SceneManagement.SceneManager.LoadScene("Scoreboard");
 	}
 
-	function onExitButtonClicked() {
+	function onCreditsButtonClicked() {
 		Application.Quit();
 	}
 }

@@ -4,6 +4,7 @@ Assets/GameMenu/MainMenu.unity
 Assets/Play/Play.unity
 Assets/GameOver/GameOver.unity
 Assets/Scoreboard/Scoreboard.unity
+Assets/Credits/Credits.unity
 SceneListEnd?
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
 970a95104359198fe1a98ef48655de8c UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationTrack
@@ -160,3 +161,4 @@ b4de94d4eb2fb0c6b6fe10b98fe9f903 Assembly-UnityScript.dll:.GameOver
 28adc48d12c94ed2b526e3ae3e3cf06e Assembly-UnityScript.dll:.PowerUpSpawn
 b66a8bf68b02256b8e85ea6f3b8c3622 Assembly-UnityScript.dll:.MeteorsSpawn
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Scoreboard
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Credits
