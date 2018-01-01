@@ -11,6 +11,6 @@ public class GameMenu extends MonoBehaviour {
 	}
 
 	function onCreditsButtonClicked() {
-		Application.Quit();
+		SceneManagement.SceneManager.LoadScene("Credits");
 	}
 }
