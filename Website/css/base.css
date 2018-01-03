@@ -1,0 +1,49 @@
+@font-face {
+    font-family: "Kenvector Future";
+    src: url("../fonts/kenvector_future.ttf");
+}
+
+@font-face {
+    font-family: "Kenvector Future Thin";
+    src: url("../fonts/kenvector_future_thin.ttf");
+}
+
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    text-align: center;
+    color: white;
+    font-family: 'Kenvector Future';
+}
+
+h1 {
+    font-size: 2.3em;
+}
+
+ h2 {
+     font-size: 2em;
+ }
+
+p {
+    text-align: center;
+    color: white;
+    font-family: 'Kenvector Future Thin';
+    line-height: 1.5;
+    font-size: 1.2em;
+}
+
+.main-container {
+    width: 960px;
+    height: 600px;
+    background-color: white;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.game-container {
+    width: 960px;
+    height: 600px;
+}

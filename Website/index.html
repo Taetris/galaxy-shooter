@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | Galaxy Shooter V2</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/Builds.json", {onProgress: UnityProgress});
-    </script>
-  </head>
-  <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 960px; height: 600px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Galaxy Shooter V2</div>
-      </div>
-    </div>
-  </body>
-</html>
+    <head>
+        <meta charset="utf-8">
+        <title>Galaxy Shooter</title>
+        <link rel="stylesheet" href="css/base.css">
+        <script src="unity/UnityProgress.js"></script>
+        <script src="unity/UnityLoader.js"></script>
+        <script src="unity/UnityInstantiate.js"></script>
+    </head>
+    <body>
+        <header>
+            <div class = "header">
+                <h1>Galaxy Shooter</h1>
+                <h2>Gameplay</h2>
+                <p>
+                    Galaxy Shooter is a 2D action game made in Unity. The goal is to get the highest score by destroying various meteors. <br>
+                    There are different power-ups you can pick up that will increse health, give some extra fuel or boost your score. <br>
+                    Make sure you destroy incoming meteors. Keep an eye on your fuel!
+                </p>
+                <h2>Controls</h2>
+                <p>
+                    W - Move<br>
+                    Mouse - Rotate<br>
+                    Left Click - Shoot
+                </p>
+            </div>
+        </header>
+
+        <div class="main-container">
+            <div class="game-container" id="gameContainer"/>
+        </div>
+    </body>
+  </html>

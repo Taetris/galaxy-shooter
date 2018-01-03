@@ -83,6 +83,7 @@ c63db43c730fa2cbb8ca07de15898cb6 UnityEngine.UI.dll:UnityEngine.UI.Toggle
 f61c0793411f10cf5fbfa1473fef5ef2 UnityEngine.UI.dll:UnityEngine.UI.ToggleGroup
 86d36c43c53541d667100dc90b89cfba UnityEngine.UI.dll:UnityEngine.EventSystems.TouchInputModule
 1b8c02d0aa82fbf036a2b9b2d713eec3 UnityEngine.UI.dll:UnityEngine.UI.VerticalLayoutGroup
+05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Scoreboard
 35925b56d41b589a36af45f04b7a6562 Assembly-UnityScript.dll:.PillCollision
 5f42bd63ba8ac9a0eb7afe73100ec6d6 Assembly-UnityScript.dll:.Laser
 05524b8f659e7bfe5756d1335fec24ba UnityEngine.Timeline.dll:UnityEngine.Timeline.ActivationPlayableAsset
@@ -160,5 +161,4 @@ c2275a8bfbb9f9942cad75ecdfded41d UnityEngine.HoloLens.dll:UnityEngine.XR.WSA.Spa
 b4de94d4eb2fb0c6b6fe10b98fe9f903 Assembly-UnityScript.dll:.GameOver
 28adc48d12c94ed2b526e3ae3e3cf06e Assembly-UnityScript.dll:.PowerUpSpawn
 b66a8bf68b02256b8e85ea6f3b8c3622 Assembly-UnityScript.dll:.MeteorsSpawn
-05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Scoreboard
 05524b8f659e7bfe5756d1335fec24ba Assembly-UnityScript.dll:.Credits
